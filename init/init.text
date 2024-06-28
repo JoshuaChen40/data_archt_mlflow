@@ -3,3 +3,5 @@ docker exec -it mlflow /bin/sh
 cd /mlflow/sample_project
 
 python /mlflow/sample_project/sample_linear.py
+
+python /mlflow/sample_project/sample_sentence_generator.py

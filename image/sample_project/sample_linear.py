@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
 # 設定 MLflow
-mlflow.set_tracking_uri("http://localhost:5000")  # 替換成你的 MLflow 服務的 URI
+mlflow.set_tracking_uri("http://localhost:5000")
 mlflow.set_experiment("linear_regression_experiment")
 
 # 生成一些隨機數據
